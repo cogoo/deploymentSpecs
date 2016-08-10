@@ -1,0 +1,19 @@
+{
+  "name": "deploymentSpecs",
+  "short_name": "Deployment Specs",
+  "version": "0.1",
+  "description": "Chrome extension starter for loading environmnet variables",
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_action": {
+      "default_title": "Deployment Specs",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
